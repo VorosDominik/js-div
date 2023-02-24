@@ -1,0 +1,15 @@
+.tart img{
+  width: 300px;
+  flex: 0 0 50%;
+}
+.tart{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:600px){
+    .tart img{
+        width: 300px;
+        flex: 0 0 100%;
+      }
+}
